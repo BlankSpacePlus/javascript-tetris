@@ -1,0 +1,29 @@
+@font-face {
+    font-family: tmb;
+    src: url("DS-DIGIB.TTF") format("TrueType");
+}
+
+body>div {
+    font-size:13pt;
+    padding-bottom: 8px;
+}
+
+span {
+    font-family: tmb,serif;
+    font-size:20pt;
+    color: green;
+}
+
+#speed_div {
+    float: left;
+}
+
+#score_div {
+    float: right;
+}
+
+#background_div {
+    width: 336px;
+    border: 1px solid black;
+    background: #ff9;
+}

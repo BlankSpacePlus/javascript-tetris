@@ -1,30 +1,24 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="zh">
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title> HTML俄罗斯方块 </title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>HTML俄罗斯方块</title>
     <script type="text/javascript" src="tetris.js"></script>
-    <style type="text/css">
-      @font-face {
-        font-family: tmb;
-        src: url("DS-DIGIB.TTF") format("TrueType");
-      }
-      body>div {
-        font-size:13pt;
-        padding-bottom: 8px;
-      }
-      span {
-        font-family: tmb;
-        font-size:20pt;
-        color: green;
-      }
-    </style>
+    <link rel="stylesheet" type="text/css" href="tetris.css"/>
   </head>
   <body>
-    <h2>HTML俄罗斯方块</h2>
-    <div style="width:336px;border:1px solid black;background:#ff9;">&nbsp;
-      <div style="float:left;">速度:<span id="curSpeedEle"></span>当前积分:<span id="curScoreEle"></span></div>
-      <div style="float:right;">最高积分:<span id="maxScoreEle"></span></div>
+    <h1>HTML俄罗斯方块</h1>
+    <div id="background_div">
+      <div id="speed_div">
+        速度:
+        <span id="curSpeedElement"></span>
+        当前积分:
+        <span id="curScoreElement"></span>
+      </div>
+      <div id="score_div">
+        最高积分:
+        <span id="maxScoreElement"></span>
+      </div>
     </div>
   </body>
 </html>
