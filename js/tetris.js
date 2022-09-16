@@ -58,6 +58,9 @@ for (let i = 0; i < TETRIS_ROWS; i++) {
     }
 }
 
+// 获取网页宽度，注意js引入必须在引入标签之后
+let screenWidth = document.body.clientWidth;
+
 // 定义方块的颜色
 const COLORS = ["#FFF", "#FF1493", "#9932CC", "#1E90FF", "#228B22", "#FFD700", "#FF8C00", "#FF4500"];
 
@@ -142,6 +145,9 @@ let initBlock = function () {
 let initCanvas = function (rows, cols, cellWidth, cellHeight) {
     // 创建Canvas组件
     tetris_canvas = document.createElement("canvas");
+    // 居中
+    tetris_canvas.style.margin = "0 auto";
+    tetris_canvas.style.display = "block";
     // 设置Canvas组件的宽度
     tetris_canvas.width = cols * cellWidth;
     // 设置Canvas组件的高度

@@ -6,14 +6,6 @@
 body>div {
     font-size:13pt;
     padding-bottom: 8px;
-    /*align-self: center;*/
-    /*text-align: center;*/
-    /*vertical-align: center;*/
-    /*horiz-align: center;*/
-    /*position: absolute;*/
-    /*top: 50%;*/
-    /*left: 50%;*/
-    /*margin:-50px 0 0 -50px*/
 }
 
 span {
@@ -34,6 +26,7 @@ span {
 #background_div {
     width: 336px;
     border: 1px solid black;
+    margin: 0 auto;
     background: #ccffff;
     position: relative;
 }
